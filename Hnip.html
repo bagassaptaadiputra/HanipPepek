@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Creative CV Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">Creative CV</div>
+            <ul class="nav-links">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>Stand Out with a Creative CV</h1>
+            <p>Make your first impression unforgettable with our professionally designed CVs.</p>
+            <a href="#services" class="cta-button">Get Started</a>
+        </div>
+    </header>
+
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-container">
+            <div class="service">
+                <img src="images/design.png" alt="CV Design">
+                <h3>Custom CV Design</h3>
+                <p>Unique and personalized CVs to match your style and profession.</p>
+            </div>
+            <div class="service">
+                <img src="images/template.png" alt="CV Templates">
+                <h3>Pre-made Templates</h3>
+                <p>Choose from our wide range of creative and professional templates.</p>
+            </div>
+            <div class="service">
+                <img src="images/consultation.png" alt="Consultation">
+                <h3>Consultation</h3>
+                <p>Expert advice on how to present your experience and skills effectively.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>We are a team of professional designers dedicated to helping you land your dream job with a CV that stands out. Our mission is to make job hunting a joyful experience by providing creative, professional, and easy-to-use CV services.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Creative CV Services. All Rights Reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
